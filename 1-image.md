@@ -14,21 +14,25 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
-# COMPLETAR
+
+<img width="1247" height="158" alt="image" src="https://github.com/user-attachments/assets/ed0b7225-3f0f-44bf-a8ca-cb4dfa47e164" />
+
 
 **¿Qué es nginx?**
-# COMPLETAR 
+
+ Es un servidor web de código abierto de alto rendimiento que también funciona como proxy inverso, balanceador de carga y caché HTTP
 
 Descargar la imagen  **nginx** en la versión **alpine**
-# COMPLETAR
+
+<img width="1358" height="378" alt="image" src="https://github.com/user-attachments/assets/442870a9-ccf0-4da0-ab27-ada422a9a72a" />
+
 
 ### Listar imágenes
 
 ```
 docker images
 ```
-
-# COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+<img width="959" height="186" alt="image" src="https://github.com/user-attachments/assets/587a8a6f-401a-49ac-b0ba-47b3a2931a50" />
 
 **Identificadores**
 
@@ -43,10 +47,12 @@ docker inspect <nombre imagen>:<tag>
 ```
 
 Inspeccionar la imagen hello-world 
-# COMPLETAR
+<img width="960" height="822" alt="image" src="https://github.com/user-attachments/assets/402f3bc7-7ef9-48e7-97b4-760b6230a665" />
 
-**¿Con qué algoritmo se está generando el ID de la imagen**
-# COMPLETAR
+
+**¿Con qué algoritmo se está generando el ID de la imagen?**
+
+sha256
 
 ### Filtrar imágenes
 
@@ -63,7 +69,9 @@ docker rmi <nombre imagen>:<tag>
 ```
 
 Eliminar la imagen hello-world 
-# COMPLETAR
+
+<img width="1146" height="101" alt="image" src="https://github.com/user-attachments/assets/442fa020-c158-409a-a780-f0526fdb73a7" />
+
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
 Cuando eliminas una imagen Docker, Docker no elimina automáticamente los contenedores que se han creado a partir de esa imagen. Esto significa que, aunque hayas eliminado la imagen, el contenedor seguirá ejecutándose normalmente.  
